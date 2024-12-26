@@ -1,7 +1,7 @@
 import express from 'express';
 import __dirname from './util.js';
 import handlebars from 'express-handlebars';
-
+import DBPATH from './servidor.js';
 import mongoose from 'mongoose';
 import studentRouter from './routes/students.router.js'
 import coursesRouter from './routes/courses.router.js'
@@ -35,7 +35,7 @@ app.listen(9091, () => {
     console.log("Servidor escuchando por el puerto: " + SERVER_PORT);
 });
 
-const DBPATH ="mongodb+srv://matiascalvar:19ech36rN0jamvRY@cluster0.dzy6v.mongodb.net/colegio_C16?retryWrites=true&w=majority";
+
 
 const connectMongoDB = async () => {
     try {
