@@ -1,99 +1,50 @@
 import express from 'express';
-import __dirname from './util.js';
-import handlebars from 'express-handlebars';
-import DBPATH from './servidor.js';
 import mongoose from 'mongoose';
-import studentRouter from './routes/students.router.js'
-import coursesRouter from './routes/courses.router.js'
-import viewsRouter from "./routes/views.router.js";
+import handlebars from 'express-handlebars';
+import { Server } from 'socket.io';
+import __dirname from './util.js';
+import DBPATH from './server.js';
 
-import studentsModel from './services/db/models/students.js';
-import { coursesModel } from './services/db/models/courses.js';
+// Routers
+import productsRouter from './routes/products.router.js';
+import cartsRouter from './routes/carts.router.js';
+import viewsRouter from './routes/views.router.js';
 
-//Declarando Express para usar sus funciones.
+// Configuración de la app
 const app = express();
+const PORT = process.env.PORT || 9090;
 
-//Preparar la configuracion del servidor para recibir objetos JSON.
+// Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(__dirname + '/public'));
 
-/**
- * Template engine
- */
+// Configuración de Handlebars
 app.engine('handlebars', handlebars.engine());
 app.set('views', __dirname + '/views');
 app.set('view engine', 'handlebars');
-app.use(express.static(__dirname + '/public'))
 
-//Declaración de Routers:
+// MongoDB
+const DBPATH = 'mongodb://localhost:27017/ecommerce'; // Cambia a tu conexión real
+mongoose
+  .connect(DBPATH, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('Conectado a MongoDB'))
+  .catch((err) => console.error('Error al conectar a MongoDB:', err));
+
+// Rutas
+app.use('/api/products', productsRouter);
+app.use('/api/carts', cartsRouter);
 app.use('/', viewsRouter);
-app.use("/api/students", studentRouter);
-app.use("/api/courses", coursesRouter);
 
-const SERVER_PORT = 9091;
-app.listen(9091, () => {
-    console.log("Servidor escuchando por el puerto: " + SERVER_PORT);
+// Iniciar servidor
+const httpServer = app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
 
+// Configuración de WebSocket
+const socketServer = new Server(httpServer);
 
-
-const connectMongoDB = async () => {
-    try {
-
-        /*=============================================
-        =                   Population                =
-        =============================================*/
-
-        await mongoose.connect(DBPATH);
-        console.log("Conectado con exito a MongoDB usando Moongose.");
-
-        // // 1ro creamos al estudiante
-        // let nuevoEstudiante = await studentsModel.create({
-        //     name: "Luis",
-        //     lastName: "Munar",
-        //     age: "20"
-        // })
-
-        // id_Course_NodeJS = 66e0d6c356976369c13fd5e2
-
-
-        // 2do creamos la relacion
-        // let student = await studentsModel.findOne({ _id: "6758cd5353c13d0bd50dd23d" })
-        // console.log(student);
-
-        // student.courses.push({ course: "64dd760f7f1c803c99747540" })
-        // console.log("MEMORIA:", student);
-
-
-        // // // Actualizamos data en la DB
-        // let result = await studentsModel.updateOne({ _id: "6758cd5353c13d0bd50dd23d" }, student)
-        // console.log(result);
-
-
-
-        // let result = await studentsModel.find()
-        // // console.log(result);
-        // console.log("Resultado sin Populate: ", JSON.stringify(result, null, '\t'))
-
-
-
-        // // Populate
-        // // let resultPopulate = await studentsModel.find().populate('courses.course')
-        // // console.log("Resultado con Populate: ", JSON.stringify(resultPopulate, null, '\t'));
-
-
-        // // Usando Middleware
-        let resultPopulate = await studentsModel.find()
-        console.log("Resultado con Populate: ", JSON.stringify(resultPopulate, null, '\t'));
-
-
-
-
-
-
-    } catch (error) {
-        console.error("No se pudo conectar a la BD usando Moongose: " + error);
-        process.exit();
-    }
-};
-connectMongoDB();
+socketServer.on('connection', (socket) => {
+  console.log('Nuevo cliente conectado');
+  // Aquí puedes manejar eventos adicionales relacionados con WebSocket
+});
