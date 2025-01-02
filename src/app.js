@@ -24,12 +24,7 @@ app.engine('handlebars', handlebars.engine());
 app.set('views', __dirname + '/views');
 app.set('view engine', 'handlebars');
 
-// MongoDB
-const DBPATH = 'mongodb://localhost:27017/ecommerce'; // Cambia a tu conexión real
-mongoose
-  .connect(DBPATH, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('Conectado a MongoDB'))
-  .catch((err) => console.error('Error al conectar a MongoDB:', err));
+
 
 // Rutas
 app.use('/api/products', productsRouter);
@@ -46,5 +41,16 @@ const socketServer = new Server(httpServer);
 
 socketServer.on('connection', (socket) => {
   console.log('Nuevo cliente conectado');
-  // Aquí puedes manejar eventos adicionales relacionados con WebSocket
+  
 });
+
+const connectMongoDB = async () => {
+    try {
+        await mongoose.connect(DBPATH);
+        console.log("Conectado con exito a MongoDB usando Moongose.");
+    } catch (error) {
+        console.error("No se pudo conectar a la BD usando Moongose: " + error);
+        process.exit();
+    }
+};
+connectMongoDB();
