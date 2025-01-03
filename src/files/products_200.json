@@ -1,0 +1,1602 @@
+[
+  {
+    "title": "Producto 1",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 423,
+    "category": "Muebles",
+    "stock": 313,
+    "available": false
+  },
+  {
+    "title": "Producto 2",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 138,
+    "category": "Deportes",
+    "stock": 247,
+    "available": false
+  },
+  {
+    "title": "Producto 3",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 235,
+    "category": "Hogar",
+    "stock": 32,
+    "available": false
+  },
+  {
+    "title": "Producto 4",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 537,
+    "category": "Muebles",
+    "stock": 148,
+    "available": false
+  },
+  {
+    "title": "Producto 5",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 448,
+    "category": "Tecnología",
+    "stock": 456,
+    "available": false
+  },
+  {
+    "title": "Producto 6",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 871,
+    "category": "Juguetes",
+    "stock": 77,
+    "available": true
+  },
+  {
+    "title": "Producto 7",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 150,
+    "category": "Electrodomésticos",
+    "stock": 155,
+    "available": true
+  },
+  {
+    "title": "Producto 8",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 348,
+    "category": "Electrodomésticos",
+    "stock": 256,
+    "available": true
+  },
+  {
+    "title": "Producto 9",
+    "description": "Diseño moderno y funcional.",
+    "price": 778,
+    "category": "Libros",
+    "stock": 451,
+    "available": false
+  },
+  {
+    "title": "Producto 10",
+    "description": "Un excelente producto para uso diario.",
+    "price": 960,
+    "category": "Muebles",
+    "stock": 27,
+    "available": false
+  },
+  {
+    "title": "Producto 11",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 646,
+    "category": "Muebles",
+    "stock": 332,
+    "available": false
+  },
+  {
+    "title": "Producto 12",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 538,
+    "category": "Libros",
+    "stock": 428,
+    "available": false
+  },
+  {
+    "title": "Producto 13",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 546,
+    "category": "Electrodomésticos",
+    "stock": 128,
+    "available": false
+  },
+  {
+    "title": "Producto 14",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 499,
+    "category": "Ropa",
+    "stock": 206,
+    "available": true
+  },
+  {
+    "title": "Producto 15",
+    "description": "Un excelente producto para uso diario.",
+    "price": 307,
+    "category": "Tecnología",
+    "stock": 220,
+    "available": false
+  },
+  {
+    "title": "Producto 16",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 474,
+    "category": "Deportes",
+    "stock": 412,
+    "available": false
+  },
+  {
+    "title": "Producto 17",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 889,
+    "category": "Juguetes",
+    "stock": 391,
+    "available": false
+  },
+  {
+    "title": "Producto 18",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 260,
+    "category": "Tecnología",
+    "stock": 210,
+    "available": false
+  },
+  {
+    "title": "Producto 19",
+    "description": "Diseño moderno y funcional.",
+    "price": 754,
+    "category": "Juguetes",
+    "stock": 124,
+    "available": false
+  },
+  {
+    "title": "Producto 20",
+    "description": "Diseño moderno y funcional.",
+    "price": 442,
+    "category": "Tecnología",
+    "stock": 273,
+    "available": false
+  },
+  {
+    "title": "Producto 21",
+    "description": "Un excelente producto para uso diario.",
+    "price": 399,
+    "category": "Electrodomésticos",
+    "stock": 286,
+    "available": false
+  },
+  {
+    "title": "Producto 22",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 379,
+    "category": "Libros",
+    "stock": 94,
+    "available": false
+  },
+  {
+    "title": "Producto 23",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 328,
+    "category": "Tecnología",
+    "stock": 305,
+    "available": false
+  },
+  {
+    "title": "Producto 24",
+    "description": "Un excelente producto para uso diario.",
+    "price": 397,
+    "category": "Juguetes",
+    "stock": 382,
+    "available": true
+  },
+  {
+    "title": "Producto 25",
+    "description": "Calidad premium garantizada.",
+    "price": 881,
+    "category": "Libros",
+    "stock": 111,
+    "available": false
+  },
+  {
+    "title": "Producto 26",
+    "description": "Diseño moderno y funcional.",
+    "price": 611,
+    "category": "Juguetes",
+    "stock": 463,
+    "available": false
+  },
+  {
+    "title": "Producto 27",
+    "description": "Calidad premium garantizada.",
+    "price": 993,
+    "category": "Ropa",
+    "stock": 389,
+    "available": false
+  },
+  {
+    "title": "Producto 28",
+    "description": "Diseño moderno y funcional.",
+    "price": 271,
+    "category": "Electrodomésticos",
+    "stock": 120,
+    "available": false
+  },
+  {
+    "title": "Producto 29",
+    "description": "Un excelente producto para uso diario.",
+    "price": 185,
+    "category": "Tecnología",
+    "stock": 74,
+    "available": true
+  },
+  {
+    "title": "Producto 30",
+    "description": "Calidad premium garantizada.",
+    "price": 575,
+    "category": "Tecnología",
+    "stock": 365,
+    "available": true
+  },
+  {
+    "title": "Producto 31",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 514,
+    "category": "Muebles",
+    "stock": 200,
+    "available": false
+  },
+  {
+    "title": "Producto 32",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 338,
+    "category": "Muebles",
+    "stock": 436,
+    "available": false
+  },
+  {
+    "title": "Producto 33",
+    "description": "Un excelente producto para uso diario.",
+    "price": 613,
+    "category": "Tecnología",
+    "stock": 121,
+    "available": true
+  },
+  {
+    "title": "Producto 34",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 504,
+    "category": "Muebles",
+    "stock": 445,
+    "available": false
+  },
+  {
+    "title": "Producto 35",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 828,
+    "category": "Tecnología",
+    "stock": 223,
+    "available": false
+  },
+  {
+    "title": "Producto 36",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 203,
+    "category": "Ropa",
+    "stock": 449,
+    "available": false
+  },
+  {
+    "title": "Producto 37",
+    "description": "Diseño moderno y funcional.",
+    "price": 521,
+    "category": "Muebles",
+    "stock": 275,
+    "available": false
+  },
+  {
+    "title": "Producto 38",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 736,
+    "category": "Libros",
+    "stock": 123,
+    "available": true
+  },
+  {
+    "title": "Producto 39",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 902,
+    "category": "Muebles",
+    "stock": 432,
+    "available": false
+  },
+  {
+    "title": "Producto 40",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 447,
+    "category": "Libros",
+    "stock": 333,
+    "available": true
+  },
+  {
+    "title": "Producto 41",
+    "description": "Diseño moderno y funcional.",
+    "price": 313,
+    "category": "Electrodomésticos",
+    "stock": 136,
+    "available": true
+  },
+  {
+    "title": "Producto 42",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 92,
+    "category": "Electrodomésticos",
+    "stock": 422,
+    "available": true
+  },
+  {
+    "title": "Producto 43",
+    "description": "Calidad premium garantizada.",
+    "price": 35,
+    "category": "Deportes",
+    "stock": 442,
+    "available": true
+  },
+  {
+    "title": "Producto 44",
+    "description": "Diseño moderno y funcional.",
+    "price": 902,
+    "category": "Electrodomésticos",
+    "stock": 285,
+    "available": false
+  },
+  {
+    "title": "Producto 45",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 304,
+    "category": "Ropa",
+    "stock": 83,
+    "available": true
+  },
+  {
+    "title": "Producto 46",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 755,
+    "category": "Libros",
+    "stock": 487,
+    "available": false
+  },
+  {
+    "title": "Producto 47",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 732,
+    "category": "Electrodomésticos",
+    "stock": 415,
+    "available": true
+  },
+  {
+    "title": "Producto 48",
+    "description": "Un excelente producto para uso diario.",
+    "price": 436,
+    "category": "Libros",
+    "stock": 424,
+    "available": true
+  },
+  {
+    "title": "Producto 49",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 760,
+    "category": "Juguetes",
+    "stock": 236,
+    "available": true
+  },
+  {
+    "title": "Producto 50",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 140,
+    "category": "Deportes",
+    "stock": 120,
+    "available": false
+  },
+  {
+    "title": "Producto 51",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 199,
+    "category": "Tecnología",
+    "stock": 136,
+    "available": true
+  },
+  {
+    "title": "Producto 52",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 63,
+    "category": "Tecnología",
+    "stock": 61,
+    "available": true
+  },
+  {
+    "title": "Producto 53",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 144,
+    "category": "Ropa",
+    "stock": 345,
+    "available": false
+  },
+  {
+    "title": "Producto 54",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 286,
+    "category": "Electrodomésticos",
+    "stock": 229,
+    "available": true
+  },
+  {
+    "title": "Producto 55",
+    "description": "Un excelente producto para uso diario.",
+    "price": 689,
+    "category": "Juguetes",
+    "stock": 454,
+    "available": false
+  },
+  {
+    "title": "Producto 56",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 690,
+    "category": "Tecnología",
+    "stock": 387,
+    "available": true
+  },
+  {
+    "title": "Producto 57",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 141,
+    "category": "Tecnología",
+    "stock": 117,
+    "available": false
+  },
+  {
+    "title": "Producto 58",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 768,
+    "category": "Deportes",
+    "stock": 432,
+    "available": false
+  },
+  {
+    "title": "Producto 59",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 622,
+    "category": "Hogar",
+    "stock": 295,
+    "available": false
+  },
+  {
+    "title": "Producto 60",
+    "description": "Diseño moderno y funcional.",
+    "price": 516,
+    "category": "Deportes",
+    "stock": 291,
+    "available": false
+  },
+  {
+    "title": "Producto 61",
+    "description": "Un excelente producto para uso diario.",
+    "price": 15,
+    "category": "Electrodomésticos",
+    "stock": 293,
+    "available": false
+  },
+  {
+    "title": "Producto 62",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 627,
+    "category": "Muebles",
+    "stock": 195,
+    "available": true
+  },
+  {
+    "title": "Producto 63",
+    "description": "Diseño moderno y funcional.",
+    "price": 807,
+    "category": "Tecnología",
+    "stock": 382,
+    "available": false
+  },
+  {
+    "title": "Producto 64",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 609,
+    "category": "Muebles",
+    "stock": 239,
+    "available": false
+  },
+  {
+    "title": "Producto 65",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 162,
+    "category": "Deportes",
+    "stock": 381,
+    "available": true
+  },
+  {
+    "title": "Producto 66",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 881,
+    "category": "Electrodomésticos",
+    "stock": 216,
+    "available": true
+  },
+  {
+    "title": "Producto 67",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 522,
+    "category": "Hogar",
+    "stock": 196,
+    "available": true
+  },
+  {
+    "title": "Producto 68",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 606,
+    "category": "Muebles",
+    "stock": 260,
+    "available": true
+  },
+  {
+    "title": "Producto 69",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 102,
+    "category": "Libros",
+    "stock": 288,
+    "available": true
+  },
+  {
+    "title": "Producto 70",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 978,
+    "category": "Ropa",
+    "stock": 62,
+    "available": false
+  },
+  {
+    "title": "Producto 71",
+    "description": "Diseño moderno y funcional.",
+    "price": 174,
+    "category": "Electrodomésticos",
+    "stock": 428,
+    "available": true
+  },
+  {
+    "title": "Producto 72",
+    "description": "Un excelente producto para uso diario.",
+    "price": 681,
+    "category": "Tecnología",
+    "stock": 31,
+    "available": false
+  },
+  {
+    "title": "Producto 73",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 873,
+    "category": "Muebles",
+    "stock": 54,
+    "available": false
+  },
+  {
+    "title": "Producto 74",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 23,
+    "category": "Libros",
+    "stock": 346,
+    "available": true
+  },
+  {
+    "title": "Producto 75",
+    "description": "Un excelente producto para uso diario.",
+    "price": 516,
+    "category": "Tecnología",
+    "stock": 60,
+    "available": true
+  },
+  {
+    "title": "Producto 76",
+    "description": "Calidad premium garantizada.",
+    "price": 482,
+    "category": "Muebles",
+    "stock": 438,
+    "available": true
+  },
+  {
+    "title": "Producto 77",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 667,
+    "category": "Hogar",
+    "stock": 329,
+    "available": false
+  },
+  {
+    "title": "Producto 78",
+    "description": "Calidad premium garantizada.",
+    "price": 207,
+    "category": "Ropa",
+    "stock": 92,
+    "available": false
+  },
+  {
+    "title": "Producto 79",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 685,
+    "category": "Tecnología",
+    "stock": 473,
+    "available": false
+  },
+  {
+    "title": "Producto 80",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 810,
+    "category": "Ropa",
+    "stock": 96,
+    "available": true
+  },
+  {
+    "title": "Producto 81",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 83,
+    "category": "Electrodomésticos",
+    "stock": 460,
+    "available": true
+  },
+  {
+    "title": "Producto 82",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 786,
+    "category": "Deportes",
+    "stock": 167,
+    "available": false
+  },
+  {
+    "title": "Producto 83",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 714,
+    "category": "Electrodomésticos",
+    "stock": 38,
+    "available": false
+  },
+  {
+    "title": "Producto 84",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 568,
+    "category": "Deportes",
+    "stock": 140,
+    "available": true
+  },
+  {
+    "title": "Producto 85",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 301,
+    "category": "Deportes",
+    "stock": 498,
+    "available": false
+  },
+  {
+    "title": "Producto 86",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 707,
+    "category": "Deportes",
+    "stock": 262,
+    "available": true
+  },
+  {
+    "title": "Producto 87",
+    "description": "Diseño moderno y funcional.",
+    "price": 795,
+    "category": "Juguetes",
+    "stock": 408,
+    "available": false
+  },
+  {
+    "title": "Producto 88",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 136,
+    "category": "Libros",
+    "stock": 125,
+    "available": true
+  },
+  {
+    "title": "Producto 89",
+    "description": "Diseño moderno y funcional.",
+    "price": 202,
+    "category": "Ropa",
+    "stock": 429,
+    "available": false
+  },
+  {
+    "title": "Producto 90",
+    "description": "Diseño moderno y funcional.",
+    "price": 239,
+    "category": "Libros",
+    "stock": 265,
+    "available": true
+  },
+  {
+    "title": "Producto 91",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 656,
+    "category": "Deportes",
+    "stock": 217,
+    "available": true
+  },
+  {
+    "title": "Producto 92",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 657,
+    "category": "Ropa",
+    "stock": 189,
+    "available": false
+  },
+  {
+    "title": "Producto 93",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 573,
+    "category": "Muebles",
+    "stock": 480,
+    "available": false
+  },
+  {
+    "title": "Producto 94",
+    "description": "Calidad premium garantizada.",
+    "price": 55,
+    "category": "Hogar",
+    "stock": 338,
+    "available": true
+  },
+  {
+    "title": "Producto 95",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 576,
+    "category": "Juguetes",
+    "stock": 216,
+    "available": false
+  },
+  {
+    "title": "Producto 96",
+    "description": "Diseño moderno y funcional.",
+    "price": 344,
+    "category": "Libros",
+    "stock": 151,
+    "available": true
+  },
+  {
+    "title": "Producto 97",
+    "description": "Diseño moderno y funcional.",
+    "price": 775,
+    "category": "Hogar",
+    "stock": 495,
+    "available": false
+  },
+  {
+    "title": "Producto 98",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 254,
+    "category": "Libros",
+    "stock": 484,
+    "available": false
+  },
+  {
+    "title": "Producto 99",
+    "description": "Un excelente producto para uso diario.",
+    "price": 653,
+    "category": "Hogar",
+    "stock": 285,
+    "available": false
+  },
+  {
+    "title": "Producto 100",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 44,
+    "category": "Libros",
+    "stock": 473,
+    "available": false
+  },
+  {
+    "title": "Producto 101",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 519,
+    "category": "Libros",
+    "stock": 235,
+    "available": false
+  },
+  {
+    "title": "Producto 102",
+    "description": "Calidad premium garantizada.",
+    "price": 604,
+    "category": "Electrodomésticos",
+    "stock": 350,
+    "available": true
+  },
+  {
+    "title": "Producto 103",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 451,
+    "category": "Electrodomésticos",
+    "stock": 395,
+    "available": true
+  },
+  {
+    "title": "Producto 104",
+    "description": "Calidad premium garantizada.",
+    "price": 474,
+    "category": "Libros",
+    "stock": 276,
+    "available": false
+  },
+  {
+    "title": "Producto 105",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 135,
+    "category": "Muebles",
+    "stock": 375,
+    "available": false
+  },
+  {
+    "title": "Producto 106",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 654,
+    "category": "Tecnología",
+    "stock": 482,
+    "available": true
+  },
+  {
+    "title": "Producto 107",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 243,
+    "category": "Libros",
+    "stock": 14,
+    "available": false
+  },
+  {
+    "title": "Producto 108",
+    "description": "Calidad premium garantizada.",
+    "price": 377,
+    "category": "Electrodomésticos",
+    "stock": 24,
+    "available": true
+  },
+  {
+    "title": "Producto 109",
+    "description": "Diseño moderno y funcional.",
+    "price": 256,
+    "category": "Ropa",
+    "stock": 370,
+    "available": false
+  },
+  {
+    "title": "Producto 110",
+    "description": "Un excelente producto para uso diario.",
+    "price": 383,
+    "category": "Hogar",
+    "stock": 155,
+    "available": true
+  },
+  {
+    "title": "Producto 111",
+    "description": "Calidad premium garantizada.",
+    "price": 223,
+    "category": "Juguetes",
+    "stock": 236,
+    "available": true
+  },
+  {
+    "title": "Producto 112",
+    "description": "Un excelente producto para uso diario.",
+    "price": 22,
+    "category": "Electrodomésticos",
+    "stock": 145,
+    "available": false
+  },
+  {
+    "title": "Producto 113",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 148,
+    "category": "Libros",
+    "stock": 241,
+    "available": false
+  },
+  {
+    "title": "Producto 114",
+    "description": "Calidad premium garantizada.",
+    "price": 798,
+    "category": "Tecnología",
+    "stock": 161,
+    "available": false
+  },
+  {
+    "title": "Producto 115",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 500,
+    "category": "Deportes",
+    "stock": 427,
+    "available": true
+  },
+  {
+    "title": "Producto 116",
+    "description": "Un excelente producto para uso diario.",
+    "price": 125,
+    "category": "Libros",
+    "stock": 83,
+    "available": true
+  },
+  {
+    "title": "Producto 117",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 62,
+    "category": "Tecnología",
+    "stock": 445,
+    "available": true
+  },
+  {
+    "title": "Producto 118",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 441,
+    "category": "Deportes",
+    "stock": 216,
+    "available": true
+  },
+  {
+    "title": "Producto 119",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 23,
+    "category": "Hogar",
+    "stock": 183,
+    "available": false
+  },
+  {
+    "title": "Producto 120",
+    "description": "Diseño moderno y funcional.",
+    "price": 307,
+    "category": "Hogar",
+    "stock": 188,
+    "available": true
+  },
+  {
+    "title": "Producto 121",
+    "description": "Un excelente producto para uso diario.",
+    "price": 487,
+    "category": "Deportes",
+    "stock": 454,
+    "available": false
+  },
+  {
+    "title": "Producto 122",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 32,
+    "category": "Ropa",
+    "stock": 187,
+    "available": false
+  },
+  {
+    "title": "Producto 123",
+    "description": "Un excelente producto para uso diario.",
+    "price": 118,
+    "category": "Juguetes",
+    "stock": 56,
+    "available": false
+  },
+  {
+    "title": "Producto 124",
+    "description": "Diseño moderno y funcional.",
+    "price": 324,
+    "category": "Electrodomésticos",
+    "stock": 18,
+    "available": true
+  },
+  {
+    "title": "Producto 125",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 463,
+    "category": "Deportes",
+    "stock": 327,
+    "available": false
+  },
+  {
+    "title": "Producto 126",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 472,
+    "category": "Hogar",
+    "stock": 26,
+    "available": true
+  },
+  {
+    "title": "Producto 127",
+    "description": "Calidad premium garantizada.",
+    "price": 959,
+    "category": "Juguetes",
+    "stock": 6,
+    "available": true
+  },
+  {
+    "title": "Producto 128",
+    "description": "Un excelente producto para uso diario.",
+    "price": 699,
+    "category": "Electrodomésticos",
+    "stock": 348,
+    "available": true
+  },
+  {
+    "title": "Producto 129",
+    "description": "Calidad premium garantizada.",
+    "price": 341,
+    "category": "Ropa",
+    "stock": 481,
+    "available": true
+  },
+  {
+    "title": "Producto 130",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 53,
+    "category": "Libros",
+    "stock": 269,
+    "available": false
+  },
+  {
+    "title": "Producto 131",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 719,
+    "category": "Deportes",
+    "stock": 157,
+    "available": false
+  },
+  {
+    "title": "Producto 132",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 875,
+    "category": "Muebles",
+    "stock": 403,
+    "available": true
+  },
+  {
+    "title": "Producto 133",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 489,
+    "category": "Muebles",
+    "stock": 482,
+    "available": true
+  },
+  {
+    "title": "Producto 134",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 410,
+    "category": "Deportes",
+    "stock": 93,
+    "available": false
+  },
+  {
+    "title": "Producto 135",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 677,
+    "category": "Deportes",
+    "stock": 5,
+    "available": true
+  },
+  {
+    "title": "Producto 136",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 300,
+    "category": "Juguetes",
+    "stock": 128,
+    "available": false
+  },
+  {
+    "title": "Producto 137",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 681,
+    "category": "Electrodomésticos",
+    "stock": 332,
+    "available": false
+  },
+  {
+    "title": "Producto 138",
+    "description": "Calidad premium garantizada.",
+    "price": 609,
+    "category": "Electrodomésticos",
+    "stock": 345,
+    "available": true
+  },
+  {
+    "title": "Producto 139",
+    "description": "Diseño moderno y funcional.",
+    "price": 156,
+    "category": "Hogar",
+    "stock": 249,
+    "available": true
+  },
+  {
+    "title": "Producto 140",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 759,
+    "category": "Ropa",
+    "stock": 245,
+    "available": false
+  },
+  {
+    "title": "Producto 141",
+    "description": "Diseño moderno y funcional.",
+    "price": 297,
+    "category": "Tecnología",
+    "stock": 487,
+    "available": true
+  },
+  {
+    "title": "Producto 142",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 857,
+    "category": "Hogar",
+    "stock": 117,
+    "available": false
+  },
+  {
+    "title": "Producto 143",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 97,
+    "category": "Tecnología",
+    "stock": 316,
+    "available": true
+  },
+  {
+    "title": "Producto 144",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 196,
+    "category": "Libros",
+    "stock": 434,
+    "available": false
+  },
+  {
+    "title": "Producto 145",
+    "description": "Un excelente producto para uso diario.",
+    "price": 889,
+    "category": "Deportes",
+    "stock": 47,
+    "available": true
+  },
+  {
+    "title": "Producto 146",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 535,
+    "category": "Hogar",
+    "stock": 163,
+    "available": true
+  },
+  {
+    "title": "Producto 147",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 256,
+    "category": "Hogar",
+    "stock": 468,
+    "available": false
+  },
+  {
+    "title": "Producto 148",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 780,
+    "category": "Electrodomésticos",
+    "stock": 209,
+    "available": false
+  },
+  {
+    "title": "Producto 149",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 87,
+    "category": "Tecnología",
+    "stock": 105,
+    "available": true
+  },
+  {
+    "title": "Producto 150",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 617,
+    "category": "Ropa",
+    "stock": 48,
+    "available": true
+  },
+  {
+    "title": "Producto 151",
+    "description": "Calidad premium garantizada.",
+    "price": 100,
+    "category": "Deportes",
+    "stock": 372,
+    "available": true
+  },
+  {
+    "title": "Producto 152",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 860,
+    "category": "Deportes",
+    "stock": 83,
+    "available": false
+  },
+  {
+    "title": "Producto 153",
+    "description": "Un excelente producto para uso diario.",
+    "price": 154,
+    "category": "Hogar",
+    "stock": 354,
+    "available": false
+  },
+  {
+    "title": "Producto 154",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 74,
+    "category": "Tecnología",
+    "stock": 315,
+    "available": true
+  },
+  {
+    "title": "Producto 155",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 97,
+    "category": "Hogar",
+    "stock": 353,
+    "available": false
+  },
+  {
+    "title": "Producto 156",
+    "description": "Calidad premium garantizada.",
+    "price": 823,
+    "category": "Deportes",
+    "stock": 477,
+    "available": false
+  },
+  {
+    "title": "Producto 157",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 444,
+    "category": "Tecnología",
+    "stock": 207,
+    "available": false
+  },
+  {
+    "title": "Producto 158",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 596,
+    "category": "Hogar",
+    "stock": 76,
+    "available": false
+  },
+  {
+    "title": "Producto 159",
+    "description": "Calidad premium garantizada.",
+    "price": 614,
+    "category": "Tecnología",
+    "stock": 240,
+    "available": true
+  },
+  {
+    "title": "Producto 160",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 600,
+    "category": "Deportes",
+    "stock": 338,
+    "available": true
+  },
+  {
+    "title": "Producto 161",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 41,
+    "category": "Tecnología",
+    "stock": 465,
+    "available": false
+  },
+  {
+    "title": "Producto 162",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 420,
+    "category": "Electrodomésticos",
+    "stock": 447,
+    "available": true
+  },
+  {
+    "title": "Producto 163",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 214,
+    "category": "Juguetes",
+    "stock": 331,
+    "available": false
+  },
+  {
+    "title": "Producto 164",
+    "description": "Calidad premium garantizada.",
+    "price": 534,
+    "category": "Deportes",
+    "stock": 103,
+    "available": true
+  },
+  {
+    "title": "Producto 165",
+    "description": "Un excelente producto para uso diario.",
+    "price": 192,
+    "category": "Libros",
+    "stock": 278,
+    "available": false
+  },
+  {
+    "title": "Producto 166",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 716,
+    "category": "Ropa",
+    "stock": 298,
+    "available": false
+  },
+  {
+    "title": "Producto 167",
+    "description": "Un excelente producto para uso diario.",
+    "price": 231,
+    "category": "Tecnología",
+    "stock": 178,
+    "available": true
+  },
+  {
+    "title": "Producto 168",
+    "description": "Diseño moderno y funcional.",
+    "price": 685,
+    "category": "Ropa",
+    "stock": 490,
+    "available": true
+  },
+  {
+    "title": "Producto 169",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 909,
+    "category": "Deportes",
+    "stock": 406,
+    "available": true
+  },
+  {
+    "title": "Producto 170",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 307,
+    "category": "Hogar",
+    "stock": 49,
+    "available": false
+  },
+  {
+    "title": "Producto 171",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 396,
+    "category": "Electrodomésticos",
+    "stock": 212,
+    "available": true
+  },
+  {
+    "title": "Producto 172",
+    "description": "Diseño moderno y funcional.",
+    "price": 446,
+    "category": "Deportes",
+    "stock": 214,
+    "available": true
+  },
+  {
+    "title": "Producto 173",
+    "description": "Diseño moderno y funcional.",
+    "price": 353,
+    "category": "Muebles",
+    "stock": 435,
+    "available": true
+  },
+  {
+    "title": "Producto 174",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 662,
+    "category": "Deportes",
+    "stock": 232,
+    "available": true
+  },
+  {
+    "title": "Producto 175",
+    "description": "Diseño moderno y funcional.",
+    "price": 141,
+    "category": "Muebles",
+    "stock": 197,
+    "available": false
+  },
+  {
+    "title": "Producto 176",
+    "description": "Diseño moderno y funcional.",
+    "price": 379,
+    "category": "Deportes",
+    "stock": 197,
+    "available": true
+  },
+  {
+    "title": "Producto 177",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 305,
+    "category": "Muebles",
+    "stock": 95,
+    "available": false
+  },
+  {
+    "title": "Producto 178",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 750,
+    "category": "Tecnología",
+    "stock": 313,
+    "available": false
+  },
+  {
+    "title": "Producto 179",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 82,
+    "category": "Juguetes",
+    "stock": 17,
+    "available": false
+  },
+  {
+    "title": "Producto 180",
+    "description": "Ideal para regalar en cualquier ocasión.",
+    "price": 931,
+    "category": "Hogar",
+    "stock": 490,
+    "available": true
+  },
+  {
+    "title": "Producto 181",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 461,
+    "category": "Tecnología",
+    "stock": 436,
+    "available": false
+  },
+  {
+    "title": "Producto 182",
+    "description": "Un excelente producto para uso diario.",
+    "price": 122,
+    "category": "Muebles",
+    "stock": 370,
+    "available": false
+  },
+  {
+    "title": "Producto 183",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 218,
+    "category": "Hogar",
+    "stock": 165,
+    "available": false
+  },
+  {
+    "title": "Producto 184",
+    "description": "Un excelente producto para uso diario.",
+    "price": 999,
+    "category": "Hogar",
+    "stock": 306,
+    "available": false
+  },
+  {
+    "title": "Producto 185",
+    "description": "Calidad premium garantizada.",
+    "price": 132,
+    "category": "Hogar",
+    "stock": 271,
+    "available": true
+  },
+  {
+    "title": "Producto 186",
+    "description": "Calidad premium garantizada.",
+    "price": 212,
+    "category": "Deportes",
+    "stock": 211,
+    "available": true
+  },
+  {
+    "title": "Producto 187",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 178,
+    "category": "Juguetes",
+    "stock": 334,
+    "available": false
+  },
+  {
+    "title": "Producto 188",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 70,
+    "category": "Libros",
+    "stock": 200,
+    "available": false
+  },
+  {
+    "title": "Producto 189",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 174,
+    "category": "Electrodomésticos",
+    "stock": 181,
+    "available": true
+  },
+  {
+    "title": "Producto 190",
+    "description": "Diseño moderno y funcional.",
+    "price": 195,
+    "category": "Tecnología",
+    "stock": 292,
+    "available": false
+  },
+  {
+    "title": "Producto 191",
+    "description": "Ofrece el mejor rendimiento en su categoría.",
+    "price": 835,
+    "category": "Libros",
+    "stock": 66,
+    "available": true
+  },
+  {
+    "title": "Producto 192",
+    "description": "Una solución perfecta para tu hogar.",
+    "price": 652,
+    "category": "Libros",
+    "stock": 31,
+    "available": true
+  },
+  {
+    "title": "Producto 193",
+    "description": "Fabricado con materiales de alta durabilidad.",
+    "price": 170,
+    "category": "Ropa",
+    "stock": 468,
+    "available": false
+  },
+  {
+    "title": "Producto 194",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 983,
+    "category": "Electrodomésticos",
+    "stock": 483,
+    "available": true
+  },
+  {
+    "title": "Producto 195",
+    "description": "Calidad premium garantizada.",
+    "price": 671,
+    "category": "Tecnología",
+    "stock": 368,
+    "available": false
+  },
+  {
+    "title": "Producto 196",
+    "description": "Un excelente producto para uso diario.",
+    "price": 590,
+    "category": "Ropa",
+    "stock": 61,
+    "available": false
+  },
+  {
+    "title": "Producto 197",
+    "description": "Compacto, eficiente y fácil de usar.",
+    "price": 149,
+    "category": "Muebles",
+    "stock": 165,
+    "available": true
+  },
+  {
+    "title": "Producto 198",
+    "description": "Un excelente producto para uso diario.",
+    "price": 30,
+    "category": "Deportes",
+    "stock": 240,
+    "available": false
+  },
+  {
+    "title": "Producto 199",
+    "description": "Un excelente producto para uso diario.",
+    "price": 385,
+    "category": "Libros",
+    "stock": 349,
+    "available": false
+  },
+  {
+    "title": "Producto 200",
+    "description": "Diseño moderno y funcional.",
+    "price": 443,
+    "category": "Hogar",
+    "stock": 127,
+    "available": true
+  }
+]
