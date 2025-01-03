@@ -3,6 +3,7 @@ import { Product } from '../models/product.js';
 
 const router = Router();
 
+// Ruta para obtener productos con paginación
 router.get('/', async (req, res) => {
   try {
     const { limit = 10, page = 1, sort, query } = req.query;
@@ -49,4 +50,40 @@ router.get('/', async (req, res) => {
   }
 });
 
+// Nueva ruta para cargar productos
+router.post('/', async (req, res) => {
+  try {
+    const { title, description, price, category, stock, available } = req.body;
+
+    // Validación de campos obligatorios
+    if (!title || !description || !price || !category || !stock) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Todos los campos son obligatorios: title, description, price, category, stock',
+      });
+    }
+
+    // Crear un nuevo producto
+    const newProduct = new Product({
+      title,
+      description,
+      price,
+      category,
+      stock,
+      available: available !== undefined ? available : true,
+    });
+
+    const savedProduct = await newProduct.save();
+
+    res.status(201).json({
+      status: 'success',
+      message: 'Producto creado exitosamente',
+      payload: savedProduct,
+    });
+  } catch (error) {
+    res.status(500).json({ status: 'error', message: 'Error al guardar el producto', error });
+  }
+});
+
 export default router;
+

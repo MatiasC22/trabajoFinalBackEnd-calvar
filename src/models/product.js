@@ -1,4 +1,6 @@
 import mongoose from 'mongoose';
+import mongoosePaginate from 'mongoose-paginate-v2';
+
 
 const productSchema = new mongoose.Schema({
   name: String,
@@ -8,6 +10,7 @@ const productSchema = new mongoose.Schema({
   available: Boolean,
 });
 
-productSchema.plugin(require('mongoose-paginate-v2'));
+
+productSchema.plugin(mongoosePaginate);
 
 export const Product = mongoose.model('Product', productSchema);

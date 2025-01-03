@@ -1,8 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import handlebars from 'express-handlebars';
-import { Server } from 'socket.io';
-import __dirname from './util.js';
+import {Server, Socket} from 'socket.io'
+import __dirname from './utils.js';
 import DBPATH from './server.js';
 
 // Routers
