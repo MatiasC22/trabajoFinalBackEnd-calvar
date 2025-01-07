@@ -9,7 +9,6 @@
         <p>Categoría: {{this.category}}</p>
         <p>Stock: {{this.stock}}</p>
         <p>Disponible: {{this.available}}</p>
-        <a href="/products/{{this._id}}">Ver detalles</a>
         <button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
     </div>
     <br />
@@ -29,19 +28,6 @@
 <h2>No hay productos para mostrar</h2>
 {{/if}}
 
-<script>
-function addToCart(productId) {
-    fetch(`/api/carts/{{cartId}}/products/${productId}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.status === 'success') {
-            alert('Producto agregado al carrito');
-        } else {
-            alert('Error al agregar producto');
-        }
-    });
-}
-</script>
+
+<script src="../public/js/agregarCarrito.js"></script>
+
