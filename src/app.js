@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import handlebars from 'express-handlebars';
+import {engine} from 'express-handlebars';
+import handlebarsLayouts from 'handlebars-layouts';
 import {Server, Socket} from 'socket.io'
 import __dirname from './utils.js';
 import DBPATH from './server.js';
@@ -20,7 +21,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
 // Configuración de Handlebars
-app.engine('handlebars', handlebars.engine());
+
+app.engine('handlebars', engine({
+  layoutsDir: path.join(__dirname, 'views', 'layouts'),
+  defaultLayout: 'main',
+  helpers: handlebarsLayouts(),
+}));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'handlebars');
 

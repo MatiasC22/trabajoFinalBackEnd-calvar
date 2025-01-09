@@ -1,4 +1,4 @@
-const socket = io();
+/*const socket = io();
 
 // Actualizar la lista de productos
 socket.on('updateProducts', (products) => {
@@ -33,4 +33,18 @@ function deleteProduct(productId) {
 function deleteAllProducts() {
     socket.emit('deleteAllProducts');
 }
-
+*/
+function addToCart(productId) {
+    fetch(`/api/carts/${cartId}/products/${productId}`, {
+        method: 'POST',
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Producto agregado al carrito', data);
+        alert('Producto agregado al carrito');
+    })
+    .catch(error => {
+        console.error('Error al agregar producto al carrito:', error);
+        alert('Hubo un error al agregar el producto al carrito');
+    });
+}

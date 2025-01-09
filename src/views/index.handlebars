@@ -1,33 +1,36 @@
-<h1>Productos</h1>
+{{#extend 'main'}}
+  {{#content 'body'}}
+    <h1>Lista de Productos</h1>
+    
+    {{#if products}}
+      <ul>
+        {{#each products}}
+          <li>
+            <h2>{{this.title}}</h2>
+            <p>{{this.description}}</p>
+            <p>Precio: ${{this.price}}</p>
+            <p>Categoría: {{this.category}}</p>
+            <p>Stock: {{this.stock}}</p>
+            <p>Disponibilidad: {{#if this.available}}Disponible{{else}}No disponible{{/if}}</p>
+            <a href="/products/{{this._id}}">Ver detalles</a>
+            <button onclick="addToCart({{this._id}})">Agregar al carrito</button>
+          </li>
+        {{/each}}
+      </ul>
 
-{{#if isValid}}
-<div>
-    {{#each payload}}
-    <div class="product">
-        <h2>{{this.name}}</h2>
-        <p>Precio: ${{this.price}}</p>
-        <p>Categoría: {{this.category}}</p>
-        <p>Stock: {{this.stock}}</p>
-        <p>Disponible: {{this.available}}</p>
-        <button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
-    </div>
-    <br />
-    {{/each}}
-</div>
-
-<div class="pagination">
-    {{#if hasPrevPage}}
-    <a href="{{prevLink}}">&laquo; Anterior</a>
+     
+      {{#if totalPages}}
+        <div>
+          <span>Página {{page}} de {{totalPages}}</span>
+          {{#if hasPrevPage}}<a href="/products?page={{prevPage}}&limit=10&sort=asc">Anterior</a>{{/if}}
+          {{#if hasNextPage}}<a href="/products?page={{nextPage}}&limit=10&sort=asc">Siguiente</a>{{/if}}
+        </div>
+      {{/if}}
+    {{else}}
+      <p>No se encontraron productos.</p>
     {{/if}}
-    Página {{page}} de {{totalPages}}
-    {{#if hasNextPage}}
-    <a href="{{nextLink}}">Siguiente &raquo;</a>
-    {{/if}}
-</div>
-{{else}}
-<h2>No hay productos para mostrar</h2>
-{{/if}}
+  {{/content}}
+{{/extend}}
 
 
-<script src="../public/js/agregarCarrito.js"></script>
 

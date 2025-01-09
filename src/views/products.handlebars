@@ -1,31 +1,22 @@
-<h1>Productos</h1>
 
-{{#if products}}
-  <div class="product-list">
-    {{#each products}}
-      <div class="product">
-        <h3>{{this.title}}</h3>
-        <p>Precio: ${{this.price}}</p>
-        <p>Categoría: {{this.category}}</p>
-        <p>Stock: {{this.stock}}</p>
-        <p>Disponible: {{this.available}}</p>
-        <a href="/products/{{this._id}}">Ver detalles</a>
-      </div>
-      <br />
-    {{/each}}
-  </div>
 
-  
-  <div class="pagination">
-    {{#if hasPrevPage}}
-      <a href="{{prevLink}}">&laquo; Anterior</a>
+{{#extend 'main'}}
+  {{#content 'body'}}
+    <h1>Detalles del Producto</h1>
+    
+    {{#if product}}
+      <h2>{{product.title}}</h2>
+      <p>{{product.description}}</p>
+      <p>Precio: ${{product.price}}</p>
+      <p>Categoría: {{product.category}}</p>
+      <p>Stock: {{product.stock}}</p>
+      <p>Disponibilidad: {{#if product.available}}Disponible{{else}}No disponible{{/if}}</p>
+      <button onclick="addToCart({{product._id}})">Agregar al carrito</button>
+    {{else}}
+      <p>Producto no encontrado.</p>
     {{/if}}
-    Página {{page}} de {{totalPages}}
-    {{#if hasNextPage}}
-      <a href="{{nextLink}}">Siguiente &raquo;</a>
-    {{/if}}
-  </div>
+  {{/content}}
+{{/extend}}
 
-{{else}}
-  <h2>No hay productos disponibles.</h2>
-{{/if}}
+
+
